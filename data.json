@@ -1,0 +1,14 @@
+{
+    "items": [
+        { "name": "Item 1" },
+        { "name": "Item 2" },
+        { "name": "Item 3" }
+    ],
+    "movies": [
+        { "title": "Inception", "genre": "Sci-Fi" },
+        { "title": "The Dark Knight", "genre": "Action" },
+        { "title": "Interstellar", "genre": "Sci-Fi" },
+        { "title": "The Prestige", "genre": "Drama" },
+        { "title": "Dunkirk", "genre": "War" }
+    ]
+}
