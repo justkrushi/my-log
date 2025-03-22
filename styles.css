@@ -1,39 +1,55 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #e9ecef;
+    color: #212529;
 }
 
 nav {
     margin-bottom: 20px;
+    background-color: #343a40;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 nav a {
     margin-right: 10px;
     text-decoration: none;
-    color: #333;
+    color: #f8f9fa;
+    font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: #ffc107;
 }
 
 h1, h2 {
     color: #333;
+    font-family: 'Roboto Slab', serif;
 }
 
 #data-container {
     margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
 
 .genre {
     margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .genre h2 {
     margin: 0;
     color: #555;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .genre ul {
@@ -42,15 +58,25 @@ h1, h2 {
 }
 
 .genre li {
-    background-color: #fff;
+    background-color: #f8f9fa;
     margin: 5px 0;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ced4da;
     border-radius: 4px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.genre li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 form {
     margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 form label {
@@ -71,8 +97,10 @@ form button {
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #007bff;
 }
