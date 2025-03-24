@@ -1,9 +1,5 @@
 {
     "movies": [
-        { "title": "Inception", "genre": "Sci-Fi" },
-        { "title": "The Dark Knight", "genre": "Action" },
-        { "title": "Interstellar", "genre": "Sci-Fi" },
-        { "title": "The Prestige", "genre": "Drama" },
         { "title": "Serenity", "genre": "Thriller" }
     ],
     "shows": [
